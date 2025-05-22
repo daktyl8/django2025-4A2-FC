@@ -1,3 +1,5 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'C:\Users\4a2\Documents\django2025-4a-FC\django2025-4A2-FC\mysite\polls\static\polls\style.css' %}">
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
@@ -7,3 +9,9 @@
 {% else %}
     <p>No polls are available.</p>
 {% endif %}
+
+
+
+
+{% load static %}
+
